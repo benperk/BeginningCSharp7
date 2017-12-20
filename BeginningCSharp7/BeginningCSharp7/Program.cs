@@ -11,7 +11,7 @@ namespace BeginningCSharp7
     {
         static void Main(string[] args)
         {
-            WriteLine("Welcome to Beginning C#7 Programming with Visual Studio 2017.  Press the ENTER key to exit.");
+            WriteLine("Welcome to Beginning C# 7 Programming with Visual Studio 2017.  Press the ENTER key to exit.");
             ReadLine();
         }
     }
