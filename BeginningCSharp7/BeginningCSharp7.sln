@@ -233,6 +233,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamWrite", "..\Chapter20
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteFile", "..\Chapter20\WriteFile\WriteFile\WriteFile.csproj", "{F7F41C4D-B388-45EA-A230-4ED29A28208C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter21", "Chapter21", "{C98FA544-800B-4D43-ADA0-4CA80E79C92D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopThroughXmlDocument", "..\Chapter21\LoopThroughXmlDocument\LoopThroughXmlDocument\LoopThroughXmlDocument.csproj", "{4C23E256-6528-4AC3-BE3A-12BAF455B2CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPathQuery", "..\Chapter21\XPathQuery\XPathQuery\XPathQuery.csproj", "{3E4BBC28-0A8A-4FAA-8D6D-836CD4456465}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XML and Schemas", "XML and Schemas", "{B7219310-F7F5-43DF-AB6D-EFC10523A158}"
+	ProjectSection(SolutionItems) = preProject
+		..\Chapter21\XML and Schemas\Books.xml = ..\Chapter21\XML and Schemas\Books.xml
+		..\Chapter21\XML and Schemas\Elements.xml = ..\Chapter21\XML and Schemas\Elements.xml
+		..\Chapter21\XML and Schemas\GhostStories.xml = ..\Chapter21\XML and Schemas\GhostStories.xml
+		..\Chapter21\XML and Schemas\GhostStories.xsd = ..\Chapter21\XML and Schemas\GhostStories.xsd
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -583,6 +597,14 @@ Global
 		{F7F41C4D-B388-45EA-A230-4ED29A28208C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7F41C4D-B388-45EA-A230-4ED29A28208C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7F41C4D-B388-45EA-A230-4ED29A28208C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C23E256-6528-4AC3-BE3A-12BAF455B2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C23E256-6528-4AC3-BE3A-12BAF455B2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C23E256-6528-4AC3-BE3A-12BAF455B2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C23E256-6528-4AC3-BE3A-12BAF455B2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E4BBC28-0A8A-4FAA-8D6D-836CD4456465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E4BBC28-0A8A-4FAA-8D6D-836CD4456465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E4BBC28-0A8A-4FAA-8D6D-836CD4456465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E4BBC28-0A8A-4FAA-8D6D-836CD4456465}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -673,6 +695,9 @@ Global
 		{9243879D-5C4B-4F26-BED0-4409B4F99773} = {37074111-77F8-42CE-99C4-B427CA07EFA4}
 		{FD758EDE-1C59-4F8F-9B74-A2FB0C747032} = {37074111-77F8-42CE-99C4-B427CA07EFA4}
 		{F7F41C4D-B388-45EA-A230-4ED29A28208C} = {37074111-77F8-42CE-99C4-B427CA07EFA4}
+		{4C23E256-6528-4AC3-BE3A-12BAF455B2CA} = {C98FA544-800B-4D43-ADA0-4CA80E79C92D}
+		{3E4BBC28-0A8A-4FAA-8D6D-836CD4456465} = {C98FA544-800B-4D43-ADA0-4CA80E79C92D}
+		{B7219310-F7F5-43DF-AB6D-EFC10523A158} = {C98FA544-800B-4D43-ADA0-4CA80E79C92D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F596D385-8F2C-409A-B4F9-A815F1E00878}

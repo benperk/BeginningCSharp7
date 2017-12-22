@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPathQuery", "XPathQuery\XPathQuery.csproj", "{3E4BBC28-0A8A-4FAA-8D6D-836CD4456465}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E4BBC28-0A8A-4FAA-8D6D-836CD4456465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E4BBC28-0A8A-4FAA-8D6D-836CD4456465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E4BBC28-0A8A-4FAA-8D6D-836CD4456465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E4BBC28-0A8A-4FAA-8D6D-836CD4456465}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7DD5289-3959-48FC-9ED5-0065E1FB60DC}
+	EndGlobalSection
+EndGlobal

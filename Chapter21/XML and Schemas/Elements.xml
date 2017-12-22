@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <!--First Non-Metal-->
+  <element Type="Non-Metal">
+    <name>Hydrogen</name>
+    <symbol>H</symbol>
+    <number>1</number>
+    <specification>
+      <mass>1.007825</mass>
+      <density>0.0899 g/cm3</density>
+    </specification>
+  </element>
+  <!--First Noble Gas-->
+  <element Type="Noble Gas">
+    <name>Helium</name>
+    <symbol>He</symbol>
+    <number>2</number>
+    <specification>
+      <mass>4.002602</mass>
+      <density>0.1785 g/cm3</density>
+    </specification>
+  </element>
+  <!--First Alali Metal-->
+  <element Type="Alkali Metal">
+    <name>Lithium</name>
+    <symbol>Li</symbol>
+    <number>3</number>
+    <specification>
+      <mass>6.941</mass>
+      <density>0.53 g/cm3</density>
+    </specification>
+  </element>
+  <!--First Alkali Earth Metal -->
+  <element Type="Alkali Earth Metal">
+    <name>Beryllium </name>
+    <symbol>Be</symbol>
+    <number>4</number>
+    <specification>
+      <mass>9.012182</mass>
+      <density>1.8477 g/cm3</density>
+    </specification>
+  </element>
+  <!--First Metalloid-->
+  <element Type="Metalloid">
+    <name>Boron</name>
+    <symbol>B</symbol>
+    <number>5</number>
+    <specification>
+      <mass>10.811</mass>
+      <density>2.34 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Non-Metal">
+    <name>Carbon</name>
+    <symbol>C</symbol>
+    <number>6</number>
+    <specification>
+      <mass>12.0107</mass>
+      <density>2.62 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Non-Metal">
+    <name>Nitrogen</name>
+    <symbol>N</symbol>
+    <number>7</number>
+    <specification>
+      <mass>14.00674</mass>
+      <density>1.2506 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Non-Metal">
+    <name>Oxygen </name>
+    <symbol>O</symbol>
+    <number>8</number>
+    <specification>
+      <mass>15.9994</mass>
+      <density>1.429 g/cm3</density>
+    </specification>
+  </element>
+  <!--First Halogen-->
+  <element Type="Halogen">
+    <name>Fluorine</name>
+    <symbol>F</symbol>
+    <number>9</number>
+    <specification>
+      <mass>18.998404</mass>
+      <density>1.696 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Noble Gas">
+    <name>Neon</name>
+    <symbol>Ne</symbol>
+    <number>10</number>
+    <specification>
+      <mass>20.1797</mass>
+      <density>0.901 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Alkali Metal">
+    <name>Sodium</name>
+    <symbol>Na</symbol>
+    <number>11</number>
+    <specification>
+      <mass>22.98977</mass>
+      <density>0.971 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Alkali Earth Metal">
+    <name>Magnesium</name>
+    <symbol>Mg</symbol>
+    <number>12</number>
+    <specification>
+      <mass>24.305</mass>
+      <density>1.738 g/cm3</density>
+    </specification>
+  </element>
+  <!--First Metal-->
+  <element Type="Metal">
+    <name>Aluminum</name>
+    <symbol>Al</symbol>
+    <number>13</number>
+    <specification>
+      <mass>26.981539</mass>
+      <density>2.702 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Metalloid">
+    <name>Silicon</name>
+    <symbol>Si</symbol>
+    <number>14</number>
+    <specification>
+      <mass>28.0855</mass>
+      <density>2.329 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Non-Metal">
+    <name>Phosphorus</name>
+    <symbol>P</symbol>
+    <number>15</number>
+    <specification>
+      <mass>30.97376</mass>
+      <density>1.82 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Non-Metal">
+    <name>Sulfur</name>
+    <symbol>S</symbol>
+    <number>16</number>
+    <specification>
+      <mass>30.97376</mass>
+      <density>2.07 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Halogen">
+    <name>Chlorine</name>
+    <symbol>Cl</symbol>
+    <number>17</number>
+    <specification>
+      <mass>35.4527</mass>
+      <density>3.214 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Nogle Gas">
+    <name>Argon</name>
+    <symbol>Ar</symbol>
+    <number>18</number>
+    <specification>
+      <mass>39.948</mass>
+      <density>1.784 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Alkali Metal">
+    <name>Potassium</name>
+    <symbol>K</symbol>
+    <number>19</number>
+    <specification>
+      <mass>39.0983</mass>
+      <density>0.862 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Alkali Earth">
+    <name>Calcium</name>
+    <symbol>Ca</symbol>
+    <number>20</number>
+    <specification>
+      <mass>40.078</mass>
+      <density>1.55 g/cm3</density>
+    </specification>
+  </element>
+  <!--First Transition Metal-->
+  <element Type="Transition Metal">
+    <name>Scandium</name>
+    <symbol>Sc</symbol>
+    <number>21</number>
+    <specification>
+      <mass>44.95591</mass>
+      <density>2.989 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Transition Metal">
+    <name>Titanium</name>
+    <symbol>Ti</symbol>
+    <number>22</number>
+    <specification>
+      <mass>47.867</mass>
+      <density>4.54 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Transition Metal">
+    <name>Vanadium</name>
+    <symbol>V</symbol>
+    <number>23</number>
+    <specification>
+      <mass>50.9415</mass>
+      <density>5.8 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Transition Metal">
+    <name>Chromium</name>
+    <symbol>Cr</symbol>
+    <number>24</number>
+    <specification>
+      <mass>51.9961</mass>
+      <density>7.19 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Transition Metal">
+    <name>Manganese</name>
+    <symbol>Mn</symbol>
+    <number>25</number>
+    <specification>
+      <mass>54.93805</mass>
+      <density>7.43 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Transition Metal">
+    <name>Iron</name>
+    <symbol>Fe</symbol>
+    <number>26</number>
+    <specification>
+      <mass>55.845</mass>
+      <density>7.86 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Transition Metal">
+    <name>Cobalt</name>
+    <symbol>Co</symbol>
+    <number>27</number>
+    <specification>
+      <mass>58.9332</mass>
+      <density>8.9 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Transition Metal">
+    <name>Cobalt</name>
+    <symbol>Co</symbol>
+    <number>27</number>
+    <specification>
+      <mass>58.9332</mass>
+      <density>8.9 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Transition Metal">
+    <name>Nickel</name>
+    <symbol>Ni</symbol>
+    <number>28</number>
+    <specification>
+      <mass>58.6934</mass>
+      <density>8.902 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Transition Metal">
+    <name>Copper</name>
+    <symbol>Cu</symbol>
+    <number>29</number>
+    <specification>
+      <mass>63.546</mass>
+      <density>8.96 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Transition Metal">
+    <name>Zinc</name>
+    <symbol>Zn</symbol>
+    <number>30</number>
+    <specification>
+      <mass>65.39</mass>
+      <density>7.133 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Metal">
+    <name>Gallium</name>
+    <symbol>Ga</symbol>
+    <number>31</number>
+    <specification>
+      <mass>69.723</mass>
+      <density>5.907 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Metalloid">
+    <name>Germanium</name>
+    <symbol>Ge</symbol>
+    <number>32</number>
+    <specification>
+      <mass>72.61</mass>
+      <density>5.323 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Metalloid">
+    <name>Arsenic</name>
+    <symbol>As</symbol>
+    <number>33</number>
+    <specification>
+      <mass>74.9216</mass>
+      <density>5.72 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Non-Metal">
+    <name>Selenium</name>
+    <symbol>Se</symbol>
+    <number>34</number>
+    <specification>
+      <mass>78.96</mass>
+      <density>4.79 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Halogen">
+    <name>Bromine</name>
+    <symbol>Br</symbol>
+    <number>35</number>
+    <specification>
+      <mass>79.904</mass>
+      <density>3.119 g/cm3</density>
+    </specification>
+  </element>
+  <element Type="Noble Gas">
+    <name>Krypton</name>
+    <symbol>Kr</symbol>
+    <number>36</number>
+    <specification>
+      <mass>83.8</mass>
+      <density>3.74 g/cm3</density>
+    </specification>
+  </element>
+</elements>
