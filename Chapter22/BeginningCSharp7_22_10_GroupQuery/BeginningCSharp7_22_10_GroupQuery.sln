@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeginningCSharp7_22_10_GroupQuery", "BeginningCSharp7_22_10_GroupQuery\BeginningCSharp7_22_10_GroupQuery.csproj", "{67AEA3AE-9761-466C-B916-A0CECCBF652A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67AEA3AE-9761-466C-B916-A0CECCBF652A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67AEA3AE-9761-466C-B916-A0CECCBF652A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67AEA3AE-9761-466C-B916-A0CECCBF652A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67AEA3AE-9761-466C-B916-A0CECCBF652A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A421933-9092-494F-B6D1-AA87E3B1B5D3}
+	EndGlobalSection
+EndGlobal

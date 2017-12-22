@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customers>
+  <customer ID="A" City="New York" Region="North America">
+    <order Item="Widget" Price="100" />
+    <order Item="Tire" Price="200" />
+  </customer>
+  <customer ID="B" City="Mumbai" Region="Asia">
+    <order Item="Oven" Price="501" />
+  </customer>
+</customers>

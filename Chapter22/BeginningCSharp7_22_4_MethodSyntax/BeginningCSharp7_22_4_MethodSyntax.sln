@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeginningCSharp7_22_4_MethodSyntax", "BeginningCSharp7_22_4_MethodSyntax\BeginningCSharp7_22_4_MethodSyntax.csproj", "{EBEBFDF8-74E3-43D2-889F-31D30A0E3556}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBEBFDF8-74E3-43D2-889F-31D30A0E3556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBEBFDF8-74E3-43D2-889F-31D30A0E3556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBEBFDF8-74E3-43D2-889F-31D30A0E3556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBEBFDF8-74E3-43D2-889F-31D30A0E3556}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0484075C-4941-4E9C-A65D-707BA97C07F7}
+	EndGlobalSection
+EndGlobal
