@@ -1,0 +1,58 @@
+﻿@page
+@using Ch18CardLibStandard;
+@{
+    ViewData["Title"] = "BensCards: Deal yourself a hand. ";
+}
+@{
+    Player[] players = new Player[2];
+
+    string player1 = String.Empty;
+    string player2 = String.Empty;
+
+    if (HttpContext.Request.Method == "POST")
+    {
+        player1 = HttpContext.Request.Form["PlayerName1"];
+        player2 = HttpContext.Request.Form["PlayerName2"];
+
+        players[0] = new Player(player1);
+        players[1] = new Player(player2);
+
+        Game newGame = new Game();
+        newGame.SetPlayers(players);
+        newGame.DealHands();
+    }
+}
+
+@if (HttpContext.Request.Method == "GET")
+{
+    @Html.Label("labelGoal", "Enter the players name and deal the cards.")
+    <br /><br />
+    @using (Html.BeginForm())
+    {
+        <p>@Html.Label("labelPlayer1", "Player 1:") @Html.TextBox("PlayerName1")</p>
+        <p>@Html.Label("labelPlayer2", "Player 2:") @Html.TextBox("PlayerName2")</p>
+        <p><input type="submit" value="Deal Hand" class="submit"></p>
+    }
+}
+else
+{
+    @Html.Label("labelGoal", "Here are the cards.")
+    <br /><br />
+    <p>@Html.Label("labelPlayer1", "Player 1:") @player1</p>
+    @foreach (Card card in players[0].PlayHand)
+    {
+        <img width="75"
+             height="100"
+             alt="cardImage"
+             src="https://deckofcards.blob.core.windows.net/carddeck/@card.imageLink" />
+    }
+    <br /><br />
+    <p>@Html.Label("labelPlayer2", "Player 2:") @player2</p>
+    @foreach (var card in players[1].PlayHand)
+    {
+        <img width="75"
+             height="100"
+             alt="cardImage"
+             src="https://deckofcards.blob.core.windows.net/carddeck/@card.imageLink" />
+    }
+}
