@@ -271,6 +271,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeginningCSharp7_22_10_Grou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeginningCSharp7_22_11_JoinQuery", "..\Chapter22\BeginningCSharp7_22_11_JoinQuery\BeginningCSharp7_22_11_JoinQuery\BeginningCSharp7_22_11_JoinQuery.csproj", "{AF7D3D45-76A9-4440-A667-D665A2DF9F20}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter23", "Chapter23", "{6CDCE0A8-8DA0-423D-B092-98F3B418547F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeginningCSharp7_23_1_CodeFirstDatabase", "..\Chapter23\BeginningCSharp7_23_1_CodeFirstDatabase\BeginningCSharp7_23_1_CodeFirstDatabase\BeginningCSharp7_23_1_CodeFirstDatabase.csproj", "{FA03979B-4405-4A27-8CD5-C5493971C823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeginningCSharp7_23_2_DatabaseRelations", "..\Chapter23\BeginningCSharp7_23_2_DatabaseRelations\BeginningCSharp7_23_2_DatabaseRelations\BeginningCSharp7_23_2_DatabaseRelations.csproj", "{5798D066-42C6-47FE-858F-2264CBDF8BD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeginningCSharp7_23_3_XMLfromDatabase", "..\Chapter23\BeginningCSharp7_23_3_XMLfromDatabase\BeginningCSharp7_23_3_XMLfromDatabase\BeginningCSharp7_23_3_XMLfromDatabase.csproj", "{0104B29C-8DEF-4616-A6BA-C5E1ED3244B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -673,6 +681,18 @@ Global
 		{AF7D3D45-76A9-4440-A667-D665A2DF9F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF7D3D45-76A9-4440-A667-D665A2DF9F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF7D3D45-76A9-4440-A667-D665A2DF9F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA03979B-4405-4A27-8CD5-C5493971C823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA03979B-4405-4A27-8CD5-C5493971C823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA03979B-4405-4A27-8CD5-C5493971C823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA03979B-4405-4A27-8CD5-C5493971C823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5798D066-42C6-47FE-858F-2264CBDF8BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5798D066-42C6-47FE-858F-2264CBDF8BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5798D066-42C6-47FE-858F-2264CBDF8BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5798D066-42C6-47FE-858F-2264CBDF8BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0104B29C-8DEF-4616-A6BA-C5E1ED3244B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0104B29C-8DEF-4616-A6BA-C5E1ED3244B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0104B29C-8DEF-4616-A6BA-C5E1ED3244B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0104B29C-8DEF-4616-A6BA-C5E1ED3244B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -777,6 +797,9 @@ Global
 		{6C333925-0E4E-4F20-8167-740BEBD893C3} = {040FA625-3C25-462E-B6D0-A7B85326B935}
 		{67AEA3AE-9761-466C-B916-A0CECCBF652A} = {040FA625-3C25-462E-B6D0-A7B85326B935}
 		{AF7D3D45-76A9-4440-A667-D665A2DF9F20} = {040FA625-3C25-462E-B6D0-A7B85326B935}
+		{FA03979B-4405-4A27-8CD5-C5493971C823} = {6CDCE0A8-8DA0-423D-B092-98F3B418547F}
+		{5798D066-42C6-47FE-858F-2264CBDF8BD9} = {6CDCE0A8-8DA0-423D-B092-98F3B418547F}
+		{0104B29C-8DEF-4616-A6BA-C5E1ED3244B1} = {6CDCE0A8-8DA0-423D-B092-98F3B418547F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F596D385-8F2C-409A-B4F9-A815F1E00878}

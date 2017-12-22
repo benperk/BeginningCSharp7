@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeginningCSharp7_23_3_XMLfromDatabase", "BeginningCSharp7_23_3_XMLfromDatabase\BeginningCSharp7_23_3_XMLfromDatabase.csproj", "{0104B29C-8DEF-4616-A6BA-C5E1ED3244B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0104B29C-8DEF-4616-A6BA-C5E1ED3244B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0104B29C-8DEF-4616-A6BA-C5E1ED3244B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0104B29C-8DEF-4616-A6BA-C5E1ED3244B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0104B29C-8DEF-4616-A6BA-C5E1ED3244B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEF0E1F4-3BAE-4B63-8B6F-F21930A21A9C}
+	EndGlobalSection
+EndGlobal
