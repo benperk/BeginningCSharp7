@@ -1,0 +1,58 @@
+﻿@using Newtonsoft.Json;
+@{
+    List<string> cards = new List<string>();
+    var playerName = Request["PlayerName"];
+
+    if (IsPost)
+    {
+        string GetURL = "http://handofcards.azurewebsites.net/api/" +
+              "HandOfCards/" + playerName;
+        WebClient client = new WebClient();
+        Stream dataStream = client.OpenRead(GetURL);
+        StreamReader reader = new StreamReader(dataStream);
+        var results =
+              JsonConvert.DeserializeObject<dynamic>(reader.ReadLine());
+        reader.Close();
+
+        foreach (var item in results)
+        {
+            cards.Add((string)item.imageLink);
+        }
+    }
+}
+<html>
+<head>
+    <title>BensCards: Deal yourself a hand. </title>
+</head>
+<body>
+    @if (IsPost)
+    {
+        <label id="labelGoal">Here is your hand of cards.</label>
+        <br />
+        <div>
+            <p><label id="labelPlayer1">Player1: @playerName</label></p>
+            @foreach (string card in cards)
+            {
+                <img width="75"
+                     height="100"
+                     alt="cardImage"
+                     src="https://deckofcards.blob.core.windows.net/carddeck/@card" />
+            }
+        </div>
+        <label id="errorMessageLabel" />
+    }
+    else
+    {
+        <label id="labelGoal">
+            Enter the players name and deal the cards.
+        </label>
+        <br /><br />
+        <form method="post">
+            <div>
+                <p>Player 1:  @Html.TextBox("PlayerName")</p>
+                <p><input type="submit" value="Deal Hand" class="submit"></p>
+            </div>
+        </form>
+    }
+</body>
+</html>
