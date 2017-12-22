@@ -1,0 +1,19 @@
+﻿<Window x:Class="LayoutExamples.WrapPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LayoutExamples"
+        mc:Ignorable="d"
+        Title="WrapPanel" Height="92" Width="260">
+    <WrapPanel Background="AliceBlue">
+        <Rectangle Fill="#FF000000" Height="50" Width="50" Stroke="Black"
+    RadiusX="10" RadiusY="10" />
+        <Rectangle Fill="#FF111111" Height="50" Width="50" Stroke="Black"
+    RadiusX="10" RadiusY="10" />
+        <Rectangle Fill="#FF222222" Height="50" Width="50" Stroke="Black"
+    RadiusX="10" RadiusY="10" />
+        <Rectangle Fill="#FFFFFFFF" Height="50" Width="50" Stroke="Black"
+    RadiusX="10" RadiusY="10" />
+    </WrapPanel>
+</Window>

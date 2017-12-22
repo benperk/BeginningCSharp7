@@ -1,0 +1,27 @@
+﻿<Window x:Class="LayoutExamples.StackPanels"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LayoutExamples"
+        mc:Ignorable="d"
+Title="StackPanels" Height="300" Width="300">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="128" VerticalAlignment="Top"
+ Width="284" Orientation="Horizontal">
+            <Button Content="Button" Height="128" VerticalAlignment="Top" 
+                    Width="75"/>
+            <Button Content="Button" Height="128" VerticalAlignment="Top" 
+                    Width="75"/>
+            <Button Content="Button" Height="128" VerticalAlignment="Top" 
+                    Width="75"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="128" VerticalAlignment="Top"
+ Width="284" Margin="0,128,0,0" Orientation="Vertical">
+            <Button Content="Button" HorizontalAlignment="Left" Width="284"/>
+            <Button Content="Button" HorizontalAlignment="Left" Width="284"/>
+            <Button Content="Button" HorizontalAlignment="Left" Width="284"/>
+        </StackPanel>
+    </Grid>
+
+</Window>

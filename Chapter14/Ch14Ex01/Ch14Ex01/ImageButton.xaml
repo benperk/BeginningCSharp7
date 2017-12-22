@@ -1,0 +1,19 @@
+﻿<Window x:Class="Ch14Ex01.ImageButton"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ch14Ex01"
+        mc:Ignorable="d"
+        Title="ImageButton" Height="71.186" Width="120.763">
+    <Grid>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10" >
+            <StackPanel Orientation="Horizontal">
+                <Image Source=".\Images\Delete_black_32x32.png" Stretch="UniformToFill" 
+Width="16" Height="16" />
+                <TextBlock>Delete</TextBlock>
+            </StackPanel>
+        </Button>
+
+    </Grid>
+</Window>

@@ -1,0 +1,30 @@
+﻿<Window x:Class="LayoutExamples.DockPanels"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LayoutExamples"
+        mc:Ignorable="d"
+        Title="DockPanels" Height="300" Width="300">
+    <DockPanel Background="AliceBlue">
+        <Border DockPanel.Dock="Top" Padding="10" Margin="5"
+    Background="Aquamarine" Height="45">
+            <Label>1) DockPanel.Dock="Top"</Label>
+        </Border>
+        <Border DockPanel.Dock="Top" Padding="10" Margin="5"
+    Background="PaleVioletRed" Height="45" Width="200">
+            <Label>2) DockPanel.Dock="Top"</Label>
+        </Border>
+        <Border DockPanel.Dock="Left" Padding="10" Margin="5"
+    Background="Bisque" Width="200">
+            <Label>3) DockPanel.Dock="Left"</Label>
+        </Border>
+        <Border DockPanel.Dock="Bottom" Padding="10" Margin="5"
+    Background="Ivory" Width="200" HorizontalAlignment="Right">
+            <Label>4) DockPanel.Dock="Bottom"</Label>
+        </Border>
+        <Border Padding="10" Margin="5" Background="BlueViolet">
+            <Label Foreground="White">5) Last control</Label>
+        </Border>
+    </DockPanel>
+</Window>
