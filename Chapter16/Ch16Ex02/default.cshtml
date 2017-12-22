@@ -1,0 +1,72 @@
+﻿@{
+    Player[] players = new Player[2];
+    var player1 = Request["PlayerName1"];
+    var player2 = Request["PlayerName2"];
+
+    if (IsPost)
+    {
+        players[0] = new Player(player1);
+        players[1] = new Player(player2);
+        Game newGame = new Game();
+        newGame.SetPlayers(players);
+        newGame.DealHands();
+    }
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <style>
+        body {
+            font-family: Verdana;
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+
+        div {
+            border: 1px solid black;
+            width: 40%;
+            margin: 1.2em;
+            padding: 1em;
+        }
+    </style>
+    <title>BensCards: a new and exciting card game. </title>
+</head>
+<body>
+    @if (IsPost)
+    {
+        <label id="labelGoal">Which player has the best hand.</label>
+        <br />
+        <div>
+            <p><label id="labelPlayer1">Player1: @player1</label></p>
+            @foreach (Card card in players[0].PlayHand)
+            {
+                <img width="75px" height="100px" alt="cardImage"
+                     src="https://deckofcards.blob.core.windows.net/carddeck/@card.imageLink" />
+            }
+        </div>
+        <div>
+            <p><label id="labelPlayer1">Player2: @player2</label></p>
+            @foreach (Card card in players[1].PlayHand)
+            {
+                <img width="75px" height="100px" alt="cardImage"
+                     src="https://deckofcards.blob.core.windows.net/carddeck/@card.imageLink" />
+            }
+        </div>
+    }
+    else
+    {
+        <label id="labelGoal">
+            Enter the players name and deal the cards.
+        </label>
+        <br /><br />
+        <form method="post">
+            <div>
+                <p>Player 1:  @Html.TextBox("PlayerName1")</p>
+                <p>Player 2:  @Html.TextBox("PlayerName2")</p>
+                <p><input type="submit" value="Deal Cards" class="submit"></p>
+            </div>
+        </form>
+    }
+</body>
+</html>
