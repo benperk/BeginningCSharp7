@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Ch18CardLibStandard</PackageId>
+    <PackageVersion>1.1.3</PackageVersion>
+    <Authors>Benjamin Perkins</Authors>
+    <Description>Beginning C# 7 .NET Standard CardLib</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Beginning C# 7 .NET Standard CardLib for completing the Chapter 18 exercises</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c). All rights reserved.</Copyright>
+    <PackageTags>Beginning C# 7, CardLib</PackageTags>
+    <AssemblyVersion>1.1.3.0</AssemblyVersion>
+    <FileVersion>1.1.3.0</FileVersion>
+    <Version>1.1.3</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>http://github.com/benperk/BeginningCSharp7</RepositoryUrl>
+    <RepositoryType>Public</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\Ch18CardLibStandard.xml</DocumentationFile>
+  </PropertyGroup>
+</Project>
