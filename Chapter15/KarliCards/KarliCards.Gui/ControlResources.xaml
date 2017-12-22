@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:KarliCards.Gui">
+    <ControlTemplate x:Key="HeaderTemplate" TargetType="{x:Type Label}">
+        <Canvas Background="#C40D42" >
+            <Image Height="56" Canvas.Left="0" Canvas.Top="0" Stretch="UniformToFill" Source=".\Images\Banner.png"/>
+            <ContentPresenter Canvas.Right="10" Canvas.Top="25" Content="{TemplateBinding Content}" />
+        </Canvas>
+    </ControlTemplate>
+    <Style x:Key="HeaderLabelStyle" TargetType="Label">
+        <Setter Property="Template" Value="{StaticResource HeaderTemplate}" />
+        <Setter Property="FontFamily" Value="Times New Roman" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Foreground" Value="#FFF7EFEF" />
+    </Style>
+    <Style x:Key="MainMenuStyle" TargetType="Menu">
+        <Setter Property="Background" Value="Black" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="FontWeight" Value="Bold" />
+    </Style>
+    <Style x:Key="MainMenuItemStyle" TargetType="MenuItem">
+        <Setter Property="Foreground" Value="White" />
+    </Style>
+    <Style x:Key="MainMenuSubMenuItemStyle" TargetType="MenuItem">
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Width" Value="200" />
+        <Setter Property="Height" Value="22" />
+    </Style>
+    <Style x:Key="MenuItemSeperatorStyle" TargetType="Separator">
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+
+</ResourceDictionary>
