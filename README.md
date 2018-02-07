@@ -21,9 +21,9 @@ Code samples are available for these chapters:
 * Chapter 17: Advanced Cloud Programming and Deployment 
 * Chapter 18: .NET Standard and .NET Core 
 * Chapter 19: ASP.NET and ASP.NET Core 
-* Chapter 20: File System Data 
-* Chapter 21: XML 
-* Chapter 22: Introduction and Applying LINQ 
-* Chapter 23: Introduction to Object Relational Mapping (ORM) 
+* Chapter 20: Files 
+* Chapter 21: XML and JSON
+* Chapter 22: LINQ 
+* Chapter 23: Databases 
 * Chapter 24: Windows Communication Foundation 
 * Chapter 25: Universal Apps
