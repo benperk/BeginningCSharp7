@@ -38,7 +38,7 @@ namespace BeginningCSharp7_22_1_LinqToXmlConstructors
                     )
                 )
             );
-            WriteLine(xdoc);
+            WriteLine(xdoc); 
 
             Write("Program finished, press Enter/Return to continue:");
             ReadLine();
