@@ -43,7 +43,7 @@ namespace BeginningCSharp7_23_1_CodeFirstDatabase
                     WriteLine($"{b.Title} by {b.Author}, code={b.Code}");
                 }
                 WriteLine("Press a key to exit...");
-                ReadKey();
+                ReadKey(); 
             }
         }
     }
