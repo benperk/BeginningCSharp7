@@ -13,7 +13,7 @@ namespace Compressor
     {
         static void SaveCompressedFile(string filename, string data)
         {
-            FileStream fileStream =
+            FileStream fileStream = 
                new FileStream(filename, FileMode.Create, FileAccess.Write);
             GZipStream compressionStream =
                new GZipStream(fileStream, CompressionMode.Compress);
