@@ -1,0 +1,75 @@
+﻿<Page
+    x:Class="PictureViewer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PictureViewer"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="narrowView">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="RightPanel.(RelativePanel.Below)" Value="LeftPanel" />
+                        <Setter Target="RightPanel.(RelativePanel.AlignLeftWithPanel)" Value="True" />
+                        <Setter Target="RightPanel.(RelativePanel.AlignRightWithPanel)" Value="True" />
+                        <Setter Target="RightPanel.Margin" Value="0,10,0,0" />
+                        <Setter Target="LeftPanel.(RelativePanel.AlignTopWithPanel)" Value="True" />
+                        <Setter Target="LeftPanel.(RelativePanel.AlignLeftWithPanel)" Value="True" />
+                        <Setter Target="LeftPanel.(RelativePanel.AlignRightWithPanel)" Value="True" />
+                        <Setter Target="LeftPanel.Height" Value="560" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="wideView">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="720" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="RightPanel.(RelativePanel.AlignBottomWithPanel)" Value="True" />
+                        <Setter Target="RightPanel.(RelativePanel.AlignRightWithPanel)" Value="True" />
+                        <Setter Target="RightPanel.(RelativePanel.AlignTopWithPanel)" Value="True" />
+                        <Setter Target="RightPanel.Width" Value="200" />
+                        <Setter Target="LeftPanel.(RelativePanel.LeftOf)" Value="RightPanel" />
+                        <Setter Target="LeftPanel.(RelativePanel.AlignBottomWithPanel)" Value="True" />
+                        <Setter Target="LeftPanel.(RelativePanel.AlignTopWithPanel)" Value="True" />
+                        <Setter Target="LeftPanel.(RelativePanel.AlignLeftWithPanel)" Value="True" />
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+        <RelativePanel Margin="20">
+            <RelativePanel x:Name="LeftPanel" Margin="0,10,0,0" >
+                <FlipView x:Name="flipView" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" SelectionChanged="flipView_SelectionChanged" >
+                    <FlipView.ItemTemplate>
+                        <DataTemplate>
+                            <Image x:Name="image" Source="{Binding}" Stretch="Uniform"/>
+                        </DataTemplate>
+                    </FlipView.ItemTemplate>
+                </FlipView>
+            </RelativePanel>
+            <RelativePanel x:Name="RightPanel" Margin="20,10,0,0">
+                <TextBlock x:Name="textBlockCurrentImageDisplayName" 
+                   Margin="10,10,10,0" FontSize="24" FontWeight="Bold" 
+                   RelativePanel.AlignLeftWithPanel="True" 
+                   RelativePanel.AlignRightWithPanel="True" />
+                <TextBlock x:Name="textBlockCurrentImageImageHeight" Margin="10,10,10,0" 
+                   FontSize="24" FontWeight="Bold"
+                   RelativePanel.AlignLeftWithPanel="True" 
+                   RelativePanel.AlignRightWithPanel="True" 
+                   RelativePanel.Below="textBlockCurrentImageDisplayName" />
+                <TextBlock x:Name="textBlockCurrentImageImageWidth" Margin="10,10,10,0" 
+                   FontSize="24" FontWeight="Bold" 
+                   RelativePanel.AlignLeftWithPanel="True" 
+                   RelativePanel.AlignRightWithPanel="True" 
+                   RelativePanel.Below="textBlockCurrentImageImageHeight" />
+            </RelativePanel>
+        </RelativePanel>
+
+    </Grid>
+</Page>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="38601JacobVibeHammer.BasicNavigation" Publisher="CN=288D583C-DB2C-4917-9BD1-8C1CBA538B1C" Version="1.1.6.0" />
+  <mp:PhoneIdentity PhoneProductId="335f1cfb-a967-422a-b810-88e1a0ee7478" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>Basic Navigation</DisplayName>
+    <PublisherDisplayName>Jacob Vibe Hammer</PublisherDisplayName>
+    <Logo>Assets\PackageLogo50x50.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="BasicNavigation.App">
+      <uap:VisualElements DisplayName="Basic Navigation" Square150x150Logo="Assets\MediumTile150x150.png" Square44x44Logo="Assets\AppIcon44x44.png" Description="BasicNavigation" BackgroundColor="transparent">
+        <uap:LockScreen Notification="badge" BadgeLogo="Assets\Badge24x24.png" />
+        <uap:DefaultTile Square71x71Logo="Assets\SmallTile71x71.png" Square310x310Logo="Assets\LargeTile310x310.png" Wide310x150Logo="Assets\WideTile310x150.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen630x300.png" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="DataSerialization.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DataSerialization"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="Save" HorizontalAlignment="Left" Margin="202,248,0,0" VerticalAlignment="Top" x:Name="Save" Click="Save_Click"/>
+        <Button Content="Load" HorizontalAlignment="Left" Margin="320,258,0,0" VerticalAlignment="Top" x:Name="Load" Click="Load_Click"/>
+
+    </Grid>
+</Page>
